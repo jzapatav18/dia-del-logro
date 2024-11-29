@@ -1,0 +1,11 @@
+body {
+    font-family: 'Bangers', cursive;
+    color: #ffffff;
+    text-align: center;
+}
+img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+}
