@@ -1,0 +1,54 @@
+<!DOCTYPE HTML>
+ <Head>
+  <Title>ROWSPAN Y COLSPAN</Title>
+  <style>
+        button {
+        background-color: #6af3b5;
+        color: rgb(4, 4, 4);
+        padding: 15px 25px;
+        font-size: 16px;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+        transition: background-color 0.3s, transform 0.2s ease-in-out;
+    }
+
+    button:hover {
+        background-color: #00b35a;
+        color: #ffffff;
+        transform: scale(1.1);
+    }
+
+    .boton-derecha {
+        display: flex;
+        justify-content: center;
+    }
+  </style>
+  <linkrel="stylesheet"href="holi.css">
+ </Head>
+<Body>
+<h1 style="text-align: center;">ROWSPAN Y COLSPAN</h1><br>
+ <Table border="1" bordercolor="green" Align="center" width="500" height="250">
+  <caption style="font-size: 24px; font-weight: bold;">Tabla de ejemplo</caption>
+  <Tr>
+   <Th>Encabezado 1</Th>
+   <Th>Encabezado 2</Th>
+   <Th>Encabezado 3</Th>
+   <Th>Encabezado 4</Th>
+  </Tr>
+  <Tr>
+   <Td  rowspan="2">Fila 1</Td>
+   <Td  colspan="2">Fila 1</Td>
+   <Td>Fila 1</Td>
+  </Tr>
+  <Tr>
+   <Td>Fila 2</Td>
+   <Td colspan="2">Fila 2</Td>
+  </Tr>
+ </Table><br><br><br><br><br>
+ <div class="boton-derecha">
+    <a href="parte4.html">
+        <button onclick="mostrarMensaje()">Continuemos con la aventura</button>
+    </a>
+ </div>
+</Body>
